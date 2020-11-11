@@ -1,0 +1,63 @@
+FILE NAME demo.txt
+FILE SIZE 95
+FILE INODE NUMBER 4326560
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------
+FILE NAME program1.c
+FILE SIZE 534
+FILE INODE NUMBER 4326562
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------
+FILE NAME program5.c
+FILE SIZE 2249
+FILE INODE NUMBER 4326559
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------
+FILE NAME makefile
+FILE SIZE 1268
+FILE INODE NUMBER 4326561
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------
+FILE NAME readme
+FILE SIZE 168
+FILE INODE NUMBER 4326563
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------
+FILE NAME program4.c
+FILE SIZE 88
+FILE INODE NUMBER 4326557
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------
+FILE NAME program3.c
+FILE SIZE 36
+FILE INODE NUMBER 4326558
+
+File Permissions: 	-rw-rw-r--
+File system number: 		66310
+Number of blocks allocated for file	8
+
+---------------------------------------------------------------------------------

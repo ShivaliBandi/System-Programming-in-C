@@ -1,0 +1,6 @@
+
+COUNT FROM demo.txt-->9 
+Process 2 terminated...!
+
+COUNT FROM hello.txt-->17 
+Process 1 terminated...!

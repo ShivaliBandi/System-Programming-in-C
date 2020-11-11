@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+
+///Function which checks that 10 bytes array of both files are same or not
+int cmpFiles(char *buff1,char *buff2, int n)
+{
+    while (n-- > 0)
+    {
+        if (*buff1++ != *buff2++)
+            return 0;
+    }
+    return 1;
+}
+
+int main(int argc, char *argv[])
+{
+    int fd1 = 0, fd2 = 0, n1 = 0 , n2 = 0, flag = 1;
+    char buff1[10] = {'\0'}, buff2[10] = {'\0'};
+    printf("---- Files are Identical or not ----\n\n");
+
+    if(argc == 3)
+
+                //memset(buff1,'\0',10);
+                //memset(buff2,'\0',10);
+            }
+            if(flag == 1)
+                printf("Contents of %s and %s are equal\n",argv[1],argv[2]);
+            else
+                printf("Contents of %s and %s are not equal...!(NOT SAME)\n",argv[1],argv[2]);            
+}
+else
+{
+printf("Unable to open the file\n");
+exit(0);
+}
+        //Closing both the files
+        close(fd1);
+        close(fd2);
+        return 0;
+    }
+else
+{
+printf("Insufficient Argument..!\n");
+return -1;
+}
+}

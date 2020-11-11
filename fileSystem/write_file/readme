@@ -1,0 +1,3 @@
+#This file contains program for accepting file name and a string from user using command line and write that string in that file  using C language.
+#To run this program, refer makefile.
+

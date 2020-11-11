@@ -1,0 +1,3 @@
+#This file contains program for accepting file name and number of bytes you want to read from that file from user and display that many bytes from that file using command line andusing C language.
+#To run this program, refer makefile.
+

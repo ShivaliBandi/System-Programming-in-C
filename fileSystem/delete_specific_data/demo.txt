@@ -1,0 +1,13 @@
+/*
+To remove data from particular offset, first we have to copy the data upto that offset into another file named as copy.txt.
+Then remove the original file and again rename copied file.
+*/
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/stat.h>
+
+
+int main(int argc, char *arg
