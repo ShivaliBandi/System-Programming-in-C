@@ -31,7 +31,7 @@ int main(int argc,char *argv[])
         }
         else
         {
-            printf("Unable to create file\n");
+            printf("Unable to create file %s\n",argv[2]);
             return -1;
 
         }
@@ -39,7 +39,7 @@ int main(int argc,char *argv[])
     }    
     else
     {
-         printf("Unable to open file\n");
+         printf("Unable to open file %s\n",argv[1]);
          return -1;
     }
        
